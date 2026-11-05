@@ -1,0 +1,170 @@
+export const STORY_BEATS = [
+  {
+    id: "hero",
+    start: 0,
+    end: 0.15,
+    title: "Sony WH-1000XM6",
+    subtitle: "Silence, perfected.",
+    desc: "Flagship wireless noise cancelling, re-engineered for a world that never stops.",
+    alignment: "center",
+    badge: "Flagship 6th Generation",
+  },
+  {
+    id: "engineering",
+    start: 0.16,
+    end: 0.42,
+    title: "Precision-engineered for silence.",
+    desc: "Custom drivers, sealed acoustic chambers, and optimized airflow deliver studio-grade clarity. Every component is tuned for balance, power, and comfort—hour after hour.",
+    alignment: "left",
+    badge: "Acoustic Architecture",
+    specs: [
+      { label: "Driver Size", value: "30mm Carbon-Dome" },
+      { label: "Frequency Range", value: "4Hz – 40,000Hz" },
+      { label: "Airflow Resistance", value: "-42% internal backpressure" },
+    ],
+  },
+  {
+    id: "noise-cancelling",
+    start: 0.43,
+    end: 0.68,
+    title: "Adaptive noise cancelling, redefined.",
+    desc: "Multi-microphone array listens in every direction. Real-time neural noise analysis adjusts to your environment at 700,000 cycles per second. Your music stays pure—planes, trains, and crowds fade away.",
+    alignment: "right",
+    badge: "Dual Processor V2 + QN3",
+    bullets: [
+      "12-Microphone Beamforming Sensor Matrix",
+      "Dynamic Atmospheric Pressure Auto-Optimization",
+      "Real-time Personal Ear Canal Profile Calibration",
+    ],
+  },
+  {
+    id: "acoustics",
+    start: 0.69,
+    end: 0.84,
+    title: "Immersive, lifelike sound.",
+    desc: "High-performance drivers unlock detail, depth, and texture in every track. AI-enhanced upscaling restores clarity to compressed audio, so every note feels alive.",
+    alignment: "left",
+    badge: "Audiophile Grade Master Sound",
+    specs: [
+      { label: "Lossless Codec", value: "LDAC 990 kbps / LC3+" },
+      { label: "DAC / Amp", value: "32-Bit Discrete Architecture" },
+      { label: "Upscaling", value: "DSEE Extreme AI v3" },
+    ],
+  },
+  {
+    id: "reassembly",
+    start: 0.85,
+    end: 1.0,
+    title: "Hear everything. Feel nothing else.",
+    subtitle: "WH-1000XM6. Designed for focus, crafted for comfort.",
+    micro: "Engineered for airports, offices, and everything in between.",
+    alignment: "center",
+    badge: "Complete Integration",
+    hasCta: true,
+  },
+];
+
+export const TECHNICAL_HOTSPOTS = [
+  {
+    id: "qn3",
+    name: "HD Noise Cancelling Processor QN3",
+    role: "Ultra-low latency dual-core DSP dedicated to anti-phase frequency synthesis.",
+    detail: "Calculates inverse sound waves 700k times/sec across high-mid frequencies.",
+    x: 68,
+    y: 54,
+  },
+  {
+    id: "driver",
+    name: "30mm Precision Carbon Fiber Dome",
+    role: "Ultra-lightweight rigid diaphragm crafted for crisp transients and micro-dynamics.",
+    detail: "Low-mass copper-clad aluminum voice coil with neodymium magnets.",
+    x: 48,
+    y: 62,
+  },
+  {
+    id: "mics",
+    name: "Acoustic Beamforming Mic Matrix",
+    role: "Quad feedback & feedforward MEMS microphones per cup with wind-noise baffles.",
+    detail: "Separates your voice from ambient noise using deep neural beamforming.",
+    x: 38,
+    y: 42,
+  },
+  {
+    id: "cushions",
+    name: "Pressure-Relieving Soft Fit Leather",
+    role: "Reduces cranial pressure by 30% while maintaining an airtight acoustic seal.",
+    detail: "Memory foam lined with breathable, vegan synthetic micro-texture.",
+    x: 32,
+    y: 68,
+  },
+];
+
+export const COLORWAYS = [
+  {
+    id: "matte-black",
+    name: "Matte Black",
+    hex: "#101012",
+    accent: "#0050FF",
+    desc: "Stealth matte finish with gold Sony debossed typography.",
+  },
+  {
+    id: "platinum-silver",
+    name: "Platinum Silver",
+    hex: "#D6D6DC",
+    accent: "#00D6FF",
+    desc: "Warm titanium tone with brushed stainless-steel accents.",
+  },
+  {
+    id: "midnight-navy",
+    name: "Midnight Navy",
+    hex: "#0F1A2C",
+    accent: "#388BFF",
+    desc: "Deep indigo shade inspired by Tokyo midnight skies.",
+  },
+];
+
+export const SPECS_COMPARISON = [
+  {
+    category: "Acoustics & Drivers",
+    feature: "Driver Unit",
+    xm6: "30mm Carbon-Composite Dome (New)",
+    xm5: "30mm Carbon Fiber",
+    airpodsMax: "40mm Dynamic Driver",
+  },
+  {
+    category: "Noise Cancellation",
+    feature: "Processors",
+    xm6: "Integrated V2 + QN3 HD (Dual 32-bit)",
+    xm5: "Integrated V1 + QN1",
+    airpodsMax: "Dual H1 Headphone Chips",
+  },
+  {
+    category: "Microphones",
+    feature: "Mic Count",
+    xm6: "12 Total (8 for ANC + 4 Beamforming)",
+    xm5: "8 Total (Noise cancelling + calls)",
+    airpodsMax: "9 Total (8 for ANC + 3 for Voice)",
+  },
+  {
+    category: "Battery Life",
+    feature: "Playback (ANC On)",
+    xm6: "40 Hours (3-min charge = 5 hours)",
+    xm5: "30 Hours (3-min charge = 3 hours)",
+    airpodsMax: "20 Hours (5-min charge = 1.5 hours)",
+  },
+  {
+    category: "Weight & Ergonomics",
+    feature: "Weight",
+    xm6: "242 grams (Ultra-light ergonomic)",
+    xm5: "250 grams",
+    airpodsMax: "384.8 grams",
+  },
+  {
+    category: "Lossless Audio",
+    feature: "Wireless Codecs",
+    xm6: "LDAC (990 kbps), LC3+, AAC, SBC",
+    xm5: "LDAC, AAC, SBC",
+    airpodsMax: "AAC, SBC only",
+  },
+];
+
